@@ -1,0 +1,13 @@
+﻿int number;
+int a, b;
+string s;
+System.Console.WriteLine("Write a № day of week");
+s=Console.ReadLine();
+number=Convert.ToInt32(s);
+if(number==1)System.Console.WriteLine($"{number} день недели - пн");
+if(number==2)System.Console.WriteLine($"{number} день недели - вт");
+if(number==3)System.Console.WriteLine($"{number} день недели - ср");
+if(number==4)System.Console.WriteLine($"{number} день недели - чт");
+if(number==5)System.Console.WriteLine($"{number} день недели - пт");
+if(number==6)System.Console.WriteLine($"{number} день недели - сб");
+if(number==7)System.Console.WriteLine($"{number} день недели - вс");
