@@ -1,13 +1,20 @@
-﻿int[] a=new int[21];
-string s;
-Random rand = new Random();
+﻿int show(int[] a)
+{
+    int k=0;
+    for(int i=0; i<a.Length; i++)
+    {
+        if(a[i]%2==0) k++;
+    }
+    return k;
+}
+
+int[] a=new int [10];
+Random rand= new Random();
 for(int i=0;i<a.Length;i++)
 {
-    a[i]=rand.Next(1,21);
+    a[i]=rand.Next(99,999);
     System.Console.Write($"{a[i]} ");
 }
 System.Console.WriteLine();
-for(int i=0;i<a.Length/2;i++)
-{
-    System.Console.WriteLine($"a[{i}] x a[{a.Length-1-i}] = {a[i]*a[a.Length-1-i]} ");
-}
+System.Console.WriteLine($"{show(a)} четных чисел");
+System.Console.WriteLine($"нечетных чисел {a.Length-show(a)}");
