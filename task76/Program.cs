@@ -10,12 +10,11 @@
         }
         if(!flag) return false;
     }
-    
     return true;
 }
 System.Console.WriteLine("Введите первое слово");
 string s1=Console.ReadLine();
-System.Console.WriteLine("Введите второе слово, не длиннее второго");
+System.Console.WriteLine("Введите второе слово");
 string s2=Console.ReadLine();
 if(combination(s1,s2)) System.Console.WriteLine("Из букв первого слова можно составить второе слово");
 else System.Console.WriteLine("Из букв первого нельзя слова можно составить второе слово");
