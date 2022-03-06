@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\C#\task75\bin\Debug\net6.0\task75.exe
+C:\Users\User\Desktop\C#\task75\bin\Debug\net6.0\task75.deps.json
+C:\Users\User\Desktop\C#\task75\bin\Debug\net6.0\task75.runtimeconfig.json
+C:\Users\User\Desktop\C#\task75\bin\Debug\net6.0\task75.dll
+C:\Users\User\Desktop\C#\task75\bin\Debug\net6.0\task75.pdb
+C:\Users\User\Desktop\C#\task75\obj\Debug\net6.0\task75.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\C#\task75\obj\Debug\net6.0\task75.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\C#\task75\obj\Debug\net6.0\task75.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\C#\task75\obj\Debug\net6.0\task75.AssemblyInfo.cs
+C:\Users\User\Desktop\C#\task75\obj\Debug\net6.0\task75.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\C#\task75\obj\Debug\net6.0\task75.dll
+C:\Users\User\Desktop\C#\task75\obj\Debug\net6.0\refint\task75.dll
+C:\Users\User\Desktop\C#\task75\obj\Debug\net6.0\task75.pdb
+C:\Users\User\Desktop\C#\task75\obj\Debug\net6.0\task75.genruntimeconfig.cache
+C:\Users\User\Desktop\C#\task75\obj\Debug\net6.0\ref\task75.dll
