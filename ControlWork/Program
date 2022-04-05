@@ -1,0 +1,33 @@
+string[] first = {"fdsf", "&64", "155", "53f", " ", "     ", "/*2-1", "></"};
+PrintArray(first);
+System.Console.Write(" -> ");
+PrintArray(NewMass(first));
+
+string[] NewMass(string[] arr)
+{
+    int k = 0, j = 0;
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (arr[i].Length <= 3) k += 1;
+    }
+    string[] second = new string[k];
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (arr[i].Length <= 3)
+        {
+            second[j] = arr[i];
+            j += 1;
+        }
+    }
+    return second;
+}
+
+void PrintArray(string[] arr)
+{
+    System.Console.Write("[");
+    for (int i = 0; i < arr.Length; i++)
+    {
+        System.Console.Write($"{arr[i]},");
+    }
+    System.Console.Write("]");
+}
